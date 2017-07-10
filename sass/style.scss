@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body,
+div,
+h1,
+img,
+span{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Microsoft Yahei",Arial;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+.wePay-container {
+	width: 800px;
+	height: 515px;
+	border: 1px solid #afafaf;
+	margin: 170px auto;
+}
+
+.wePay-title {
+	height: 60px;
+	line-height: 60px;
+	h1 {
+		font-size: 28px;
+		font-weight: 500;
+		margin-left: 35px;
+	}
+}
+
+.wePay-order {
+	height: 100px;
+	background-color: #F2F2F2;
+	.detail {
+		width: 400px;
+		height: 45px;
+		float: left;
+		margin: 26px 0 26px 35px;
+	}
+	.price {
+		width: 200px;
+		line-height: 100px;
+		margin-right: 45px;
+		float: right;
+		text-align: right;
+	}
+}
+
+.wePay-main {
+	width: 725px;
+	height: 300px;
+	border: 1px solid #afafaf;
+	margin: 25px auto;
+}
+
+.wePay-logo {
+	width: 135px;
+	margin: 24px 0 24px 34px;
+	float: left;
+}
+
+.recommed {
+	width: 50px;
+	height: 20px;
+	margin-top: 15px;
+}
+
+.wePay-code {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 15px;
+}
+
+.wePay-instrution {
+	width: 160px;
+	height: 53px;
+	display: block;
+	margin: 0 auto;
+}
